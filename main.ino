@@ -1,3 +1,4 @@
+#include <Time.h>
 void setup() {
   // import time
   // IMPORT MOTOREN PORTS
@@ -6,6 +7,7 @@ void setup() {
 }
 
 void loop() {
+  
   delay(2000);
   int ldr_value = analogRead(A1);
   Serial.println(ldr_value);
